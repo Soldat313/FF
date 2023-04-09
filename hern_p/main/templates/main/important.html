@@ -1,0 +1,9 @@
+{%extends 'main/base.html'%}
+{%block title%}login or registgration{%endblock%}
+{%block content%}
+<div class="wrapper">
+         <h1>Без регистрации вход на сайт закрыт!!!</h1>
+    <a href="{%url 'login'%}"><button class="btn btn-dark">Войти</button></a>
+    <a href="{%url 'register'%}"><button class="btn btn-dark">зарегистрироваться</button></a>
+</div>
+{%endblock%}
